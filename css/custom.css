@@ -1,0 +1,193 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	display: block;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.header{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.top_bar{
+	overflow: hidden;
+	padding: 30px 0px;
+	border-bottom: 2px solid black;
+}
+
+.logo{
+	float: left;
+	width: 50%;
+	padding: 10px;
+
+}
+.logo img{
+	   float: left;
+    margin: 0 10px;
+}
+
+.logo. img p{
+	float: left;
+}
+
+.hand img{
+	position: absolute;
+    right: 6px;
+    bottom: -2px;
+}
+
+.link ul{
+	overflow: hidden;
+}
+
+.link ul li {
+	    position: relative;
+    list-style-type: none;
+    display: block;
+    text-decoration: none;
+    float: left;
+    left: 344px;
+}
+
+.navbar ul li a{
+	   list-style: none;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.menu{
+	width: 100%;
+	position: relative;
+	text-transform: uppercase;
+
+}
+
+.menu ul{
+overflow: hidden;
+}
+
+.menu ul li {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.menu ul li a{
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+}
+
+#main-section{
+	width: 100%;
+	background: url(../images/s.png);
+	margin-bottom: 10em;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mobile{
+	transform: translateY(5em);
+}
+
+.mobile img{
+	margin: 0 auto;
+}
+
+#container{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.content{
+	text-align: center;
+}
+
+.content a{
+	background: #2ecc71;
+	border: 1px;
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none; 
+}
+
+.footer{
+	background-color: #332F30;
+	height: 100px;
+}
+.footer .container{
+	
+	position: relative;
+}
+
+.btn{
+    position: absolute;
+    right: 410px;
+    top: 35px;
+    background: #2ecc71;
+    border: 1px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+.footer h3{
+
+        display: inline-block;
+    margin-top: 40px;
+    color: white;
+    margin-left: 425px;
+}
+
+.copyright{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.copy{
+	float: left;
+}
+
+.copy h4{
+	text-transform: uppercase;
+}
+
+.nav-menu{
+	float: right;
+}
+
+.nav-menu ul li{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 20px;
+
+	list-style: none;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	left: 50px;
+}
